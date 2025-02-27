@@ -4,8 +4,8 @@ import json
 def get_auth_token():
     url = "https://api.messaging.digitalcontact.cloud/auth/login"
     payload = json.dumps({
-        "login": "sandbox.code7",
-        "password": "YfAd95h4?Ek9"
+        "login": "user",
+        "password": "password"
     }).encode("utf-8")  # Converte para bytes
 
     headers = {
