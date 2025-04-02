@@ -13,7 +13,7 @@ http = urllib3.PoolManager()
 
 # SOAP API Configuration
 url = "https://isc.softexpert.com/apigateway/se/ws/wf_ws.php"
-authorization = "eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MzkyOTk0NTAsImV4cCI6MTg5NzA2NTg1MCwiaWRsb2dpbiI6ImFsaW5vIn0.UY5DZHix28g_pr-V8A-rJYpOCU9MPta6Lc3uKkoGxqw"
+authorization = "Authorization"
 entityID = "idpforms"
 headers = {
     "Authorization": authorization,
